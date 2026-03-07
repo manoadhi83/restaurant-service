@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: minikube
   application:
     name: restaurant-service
 
@@ -13,6 +13,6 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
 
 server:
-  port: 8081
+  port: 9091
 
 
